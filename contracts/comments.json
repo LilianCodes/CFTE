@@ -1,0 +1,78 @@
+[
+    {
+      "name": "MakeAPost",
+      "inputs": [
+        {
+          "name": "e_sender",
+          "type": "address",
+          "indexed": true
+        },
+        {
+          "name": "e_post_num",
+          "type": "uint256",
+          "indexed": true
+        },
+        {
+          "name": "e_string",
+          "type": "string",
+          "indexed": true
+        }
+      ],
+      "anonymous": false,
+      "type": "event"
+    },
+    {
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "name": "make_post",
+      "inputs": [
+        {
+          "name": "_your_post",
+          "type": "string"
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "stateMutability": "view",
+      "type": "function",
+      "name": "your_post",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "stateMutability": "view",
+      "type": "function",
+      "name": "post_count",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ]
+    },
+    {
+      "stateMutability": "view",
+      "type": "function",
+      "name": "user_addr",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ]
+    }
+  ]
